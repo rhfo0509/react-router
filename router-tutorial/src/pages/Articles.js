@@ -1,10 +1,6 @@
 import { NavLink, Outlet } from "react-router-dom";
 
 const Articles = () => {
-  const activeStyle = {
-    color: "green",
-    fontSize: 21,
-  };
   return (
     <div>
       <Outlet />
